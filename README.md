@@ -1,6 +1,14 @@
 # Support-Project
 Proyecto curso app para gestión de incidencias con Vue y Spring boot
 
+## DISEÑO
+<div align = "center">
+<img src= "./home.JPG" title="Inicio" alt="Página de inicio"/>&nbsp;
+<img src= "./uno.JPG" title="uno" alt="Crear ticket"/>&nbsp;
+<img src= "./dos.JPG" title="dos" alt="Ver tickets"/>&nbsp;
+<img src= "./tres.JPG" title="tres" alt="Editar tickets/>&nbsp;
+</div>
+
 # Support-Project-Front
 
 This template should help get you started developing with Vue 3 in Vite.
