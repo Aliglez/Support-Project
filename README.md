@@ -9,6 +9,18 @@ Proyecto curso app para gestión de incidencias con Vue y Spring boot
 <img src= "./tres.JPG" title="tres" alt="Editar tickets/>&nbsp;
 </div>
 
+## USER FLOW
+
+<p align="center">
+  <img src="./Support_Workflow.jpg" title="diagrama" alt="diagrama de flujo"/>
+</p>
+
+
+## DATABASE
+<p align="center">
+  <img src="./baseDatosSupport.jpg" title="bbdd" alt="Base de datos" />
+</p>
+
 # Support-Project-Front
 
 This template should help get you started developing with Vue 3 in Vite.
