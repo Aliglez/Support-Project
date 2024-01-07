@@ -2,6 +2,7 @@
 
 <template>
   <div class="FormContainer">
+    <h2>CONEXIÓN</h2>
     <form class="FormLogin">
       <input
         class="inputFormLogin"
@@ -19,7 +20,7 @@
         placeholder="Password"
         v-model.trim="password"
       />
-      <button type="submit">Login</button>
+      <button class="btnFormLogin" type="submit">Conectar</button>
     </form>
   </div>
 </template>
@@ -27,7 +28,11 @@
 <style scoped>
 
 .FormContainer {
-  border: 2px #0b9d3d;
+  border: solid 1px #0b9d3d;
+  border-radius: 10px;
+  margin: 5%;
+  padding: 12% 5%;
+  background-color: #0b9d3d;
 }
 
 .FormLogin {
@@ -37,10 +42,15 @@
   border: 3px #0b9d3d;
 }
 
-input {
+input, button {
   border-radius: 5px;
   margin: 1rem;
+  border: solid 2px #0b9d3d;
+  padding: 2%;
+  color: #0b9d3d;
 }
 
-
+h2 {
+  text-align: center;
+}
 </style>
